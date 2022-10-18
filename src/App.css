@@ -1,38 +1,295 @@
-.App {
-  text-align: center;
+body{
+  background: linear-gradient(1deg,rgb(142, 142, 142), rgb(248, 248, 248) )
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image{
+  border: 1PX SOLID rgb(79, 79, 79);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.twoo{
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+nav{
+  background: #9b9b9b;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
   }
-  to {
-    transform: rotate(360deg);
+
+.nov{
+    color: rgb(185, 43, 55);
   }
+
+.link{
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
+
+.container{
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.block{
+padding: 60px;
+}
+
+.sneakers{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(252, 252, 252);
+}
+
+
+  button{
+    font-size: 15px;
+    background-color: Transparent;
+    border: none;
+    color: brown;
+  }
+
+  .btntwoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn-three{
+    background-color: rgb(149, 147, 147);
+    padding: 15px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+text-align: center;
+  }
+  
+
+  .buttonfilter{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+  }
+
+  .change{
+    background-color: #d0cece;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    margin: 15px;
+  }
+
+  .containertwoo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+
+
+
+  .btn-close{
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn{
+    background-color: rgb(189, 189, 189);
+    padding: 15px;
+    width: 120px;
+    height: 40px;
+    margin: 15px;
+  }
+
+  .close{
+    background-color: red;
+    width: 130px;
+    border-radius: 20px;
+    height:40px ;
+    color: #fff;
+    border: none;
+    text-align: center;
+   margin-top: 20px;
+  }
+
+  .text{
+    width: 300px;
+  }
+
+  .blocktwoo{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+padding: 20px;
+  }
+
+  .blockthree{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .blockfoir{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .price{
+    color: rgb(179, 16, 16);
+    font-size: 30px;
+  }
+
+  @media all and (max-width:800px){
+    .link{
+      padding: 10px;
+font-size: 8px;
+    }
+
+.image{
+  width: 300px;
+  height: 200px;
+}
+
+.slide{
+  width: 300px;
+  height: 200px;
+}
+
+nav{
+  padding: 10px;
+  }
+
+  .blockthree{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .pictures{
+    width: 300px;
+  }
+
+  .price{
+    font-size: 20px;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .change{
+    font-size: 10px;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .text{
+    font-size: 10px;
+  }
+
+  .item{
+    font-size: 10px;
+  }
+
+  .btn-three{
+    padding: 10px;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    font-size: 12px;
+  
+  }
+
+  .btn{
+    padding: 10px;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    font-size: 12px;
+  }
+
+
+  @media all and (max-width:500px){
+    .link{
+      padding: 10px;
+font-size: 8px;
+    }
+
+.image{
+  width: 300px;
+  height: 200px;
+}
+
+.slide{
+  width: 300px;
+  height: 200px;
+}
+
+nav{
+  padding: 10px;
+  }
+
+  .blockthree{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .pictures{
+    width: 300px;
+  }
+
+  .price{
+    font-size: 20px;
+  }
+
+  .logo{
+    width: 200px;
+  }
+
+  .change{
+    font-size: 10px;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .text{
+    font-size: 10px;
+  }
+
+  .item{
+    font-size: 10px;
+  }
+
+  .btn-three{
+    padding: 10px;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    font-size: 12px;
+  
+  }
+
+  .btn{
+    padding: 10px;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    font-size: 12px;
+  }
+  }
+  }
