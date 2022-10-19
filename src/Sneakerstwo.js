@@ -40,20 +40,18 @@ const nextPerson = () =>{
 }
 
 
-    return(
+    return(<div>
         <div className="container"> 
 {sneakers.map((item => {
     const {id, image,text,showMore}= item;
     return(<div>
-        <div key={id}>
-            <img src={image} width='400px' height='300px' alt="image" className="image"></img>
+            <img src={image} width='500px' height='400px' alt="image" className="image"></img>
             <p className="text">{showMore ? text : text.substring(0,35)+'...'}<button className="item" onClick={() => showTextClick(item)}>{showMore ? 'Свернуть' : 'Развернуть'}</button></p>
             <button onClick={() => removeGift(id)} className='btn-three'>Закрыть</button>
         </div>
-        </div>
-
     )
 }))}
+</div>
 <div className="btn-close">
         <button  onClick={() => setSneakers([])} className='close'>Закрыть все</button>
         </div>
@@ -67,6 +65,7 @@ const nextPerson = () =>{
         </div>
         </div>
         </div>
+   
     )
 }
 
